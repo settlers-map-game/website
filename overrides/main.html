@@ -13,15 +13,10 @@
     gtag('config', 'G-CJNWZ3F6WV');
   </script>
 
-  <!--
-    TODO: Replace assets/main-hexes.webp with a dedicated 1200x630 OG image.
-    Recommended content: site logo + tagline "Claim your world. One hex at a time."
-  -->
-
   {% set og_title = page.title ~ " - " ~ config.site_name if page and page.title else config.site_name %}
   {% set og_description = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
   {% set og_url = page.canonical_url if page and page.canonical_url else config.site_url %}
-  {% set og_image = config.site_url ~ "assets/main-hexes.webp" %}
+  {% set og_image = config.site_url ~ "assets/promo-1.png" %}
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ config.site_name }}">

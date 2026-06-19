@@ -5,8 +5,6 @@ hide:
   - toc
 ---
 
-<!-- TODO: Replace assets/main-hexes.webp with a dedicated 1200x630 OG image (site preview, logo + tagline) -->
-
 <div class="hero" markdown>
 
 # Your city. Your territory.

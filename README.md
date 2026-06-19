@@ -32,5 +32,4 @@ The repository includes a GitHub Actions workflow that builds and deploys the si
 
 ## TODOs
 
-- Replace `docs/assets/main-hexes.webp` with a dedicated 1200x630 OG image for social sharing.
 - Update the example coordinates in the small onboarding map iframes (`docs/index.md`) to the desired locations.
