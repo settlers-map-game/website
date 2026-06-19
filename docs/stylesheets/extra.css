@@ -1,0 +1,114 @@
+/* Hide search icon in header (search dialog is removed via template override) */
+.md-header__button[for="__search"],
+.md-header__source {
+  display: none !important;
+}
+
+.md-header__option {
+  margin-left: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: var(--md-default-fg-color--light);
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .md-button {
+  margin: 0.5rem 0.25rem;
+}
+
+.map-embed {
+  margin: 1.5rem 0 3rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  background: var(--md-default-bg-color--dark);
+}
+
+.map-embed iframe {
+  display: block;
+  width: 100%;
+  height: 500px;
+  border: 0;
+}
+
+.map-embed--small {
+  margin: 0.75rem 0 1rem;
+  border-radius: 0.5rem;
+}
+
+.map-embed--small iframe {
+  height: 220px;
+}
+
+.mechanics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.mechanics-card {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color--lightest, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(255, 255, 255, 0.1));
+}
+
+.mechanics-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.mechanics-card ul {
+  margin-bottom: 0;
+}
+
+.mechanics-card li {
+  margin-bottom: 0.5rem;
+}
+
+.mechanics-card li:last-child {
+  margin-bottom: 0;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.cta-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.cta-section .md-button {
+  margin: 0.5rem 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.875rem;
+  }
+
+  .map-embed iframe {
+    height: 360px;
+  }
+
+  .mechanics {
+    grid-template-columns: 1fr;
+  }
+}
