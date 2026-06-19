@@ -3,6 +3,16 @@
 {% block extrahead %}
   {{ super() }}
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJNWZ3F6WV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CJNWZ3F6WV');
+  </script>
+
   <!--
     TODO: Replace assets/main-hexes.webp with a dedicated 1200x630 OG image.
     Recommended content: site logo + tagline "Claim your world. One hex at a time."
