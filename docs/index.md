@@ -1,17 +1,17 @@
 ---
-description: Settlers is a geolocation strategy game inside Telegram. Capture real-world hexes, join clans, and dominate the map.
+description: Settlers is a geolocation strategy game inside Telegram. Capture hexes based on what's around you in real life, form clans, and take over the map.
 hide:
   - navigation
   - toc
 ---
 
-<!-- TODO: Replace assets/main-hexes.webp with a dedicated 1200x630 sharing image (site preview, logo + tagline) -->
+<!-- TODO: Replace assets/main-hexes.webp with a dedicated 1200x630 OG image (site preview, logo + tagline) -->
 
 <div class="hero" markdown>
 
-# Claim your world. One hex at a time.
+# Your city. Your territory.
 
-**Settlers** is a geolocation strategy game inside Telegram. Capture real-world hexes, team up in clans, and dominate the map — just by moving around.
+**Settlers** is a geolocation strategy game inside Telegram. Capture hexes based on what's around you in real life, form clans, and take over the map.
 
 [:material-rocket: Open Game](https://t.me/settlers_hex_bot/game){ .md-button .md-button--primary }
 [:material-book-open: Read Documentation](https://docs.settlers.top/){ .md-button }
