@@ -25,6 +25,40 @@ hide:
   ></iframe>
 </div>
 
+<div id="analytics-stats" class="analytics" hidden markdown>
+
+### By the numbers
+
+<div class="analytics-grid" markdown>
+
+<div class="analytics-item" markdown>
+
+:lucide-map:
+**Hexes captured**
+<span id="stat-hexes">—</span>
+
+</div>
+
+<div class="analytics-item" markdown>
+
+:lucide-users:
+**Active players**
+<span id="stat-users">—</span>
+
+</div>
+
+<div class="analytics-item" markdown>
+
+:lucide-shield:
+**Clans**
+<span id="stat-clans">—</span>
+
+</div>
+
+</div>
+
+</div>
+
 ## How it works
 
 <div class="mechanics" markdown>

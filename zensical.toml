@@ -6,6 +6,7 @@ site_url = "https://settlers.top/"
 copyright = "Copyright &copy; 2026 Settlers"
 
 extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/analytics.js"]
 
 [project.theme]
 language = "en"
