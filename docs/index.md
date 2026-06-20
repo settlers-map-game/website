@@ -27,8 +27,6 @@ hide:
 
 <div id="analytics-stats" class="analytics" hidden markdown>
 
-### By the numbers
-
 <div class="analytics-grid" markdown>
 
 <div class="analytics-item" markdown>
